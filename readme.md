@@ -73,7 +73,3 @@ g++ -O3 -std=c++11 benchmark.cpp -o benchmark
 * **`std::vector` oraz Tablice Dynamiczne:** Osiągają świetne rezultaty dzięki spójności pamięci (cache locality) i optymalnemu sortowaniu. Modyfikacje w środku struktury wymagają jednak przesunięcia pozostałych elementów, przez co operacje wstawiania i usuwania są kosztowne czasowo.
 
 * **`std::list`:** Posiada narzut wydajnościowy przy początkowym dodawaniu elementów oraz sortowaniu ze względu na alokację pojedynczych węzłów na sterczy. Zyskuje jednak strukturę przy operacjach zmiany powiązań (po odnalezieniu właściwego iteratora).
-
-## 🛡️ Licencja
-
-Projekt jest dostępny jako open-source na licencji [MIT](LICENSE).
